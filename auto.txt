@@ -4,4 +4,9 @@ automate
 auto
 LOLOL
 
+<<<<<<< HEAD
+>>>>>>> auto
+=======
+DHAUDHA
+
 >>>>>>> auto
