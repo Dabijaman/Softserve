@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Enter the branch you want to merge"
+read branch
+
+#switch to master branch
+git checkout master
+
+#update master branch, if someone
+#has made changes, while you were
+#working on branch
+git pull origin master
+
+git merge $branch
+
+git push origin master
+
+#delete local repository branch
+git branch -d $branch
+
+#keep track of the branches
+git branch
+
