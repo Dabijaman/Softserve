@@ -10,5 +10,5 @@ git merge $branch
 
 git push origin master
 
-g branch -d $branch
+git branch -d $branch
 
